@@ -10,11 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <title>Gaurav & Shreeparna getting hitched!</title>
+    <title>SHAADI | Gaurav & Shreeparna</title>
     <meta name="description" content="We would like to invite you to our big day.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:title" content="Gaurav & Shreeparna getting hitched">
+    <meta property="og:title" content="SHAADI | Gaurav & Shreeparna">
     <meta property="og:description" content="We would like to invite you to our big day.">
     <meta property="og:image" content="img/hero-min.jpg">
     <meta property="og:type" content="website">
@@ -82,7 +82,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h3>We are getting hitched</h3>
+                <h3>We are getting married :)</h3>
                 <p>The dates are 1<sup>st</sup> & 2<sup>nd</sup> of December '21 and we would like you to be a part of
                     it.</p>
             </div>
@@ -262,16 +262,15 @@
         <h3>How do I get there?</h3>
         <p>It's way easier than you think! Fly to Kolkata Dum Dum Airport. Then travel to Suri by road in about 5 hours.</p>
     </div>
-    <div id="map-canvas"></div>
     <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
                 <div class="text-center">
-                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.97007892936!2d87.51799381557505!3d23.926113584503067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f758189c73a87b%3A0xe7de95c9f20b5d01!2sMotel%20Chhuti%20Restaurant%20and%20Lodging!5e0!3m2!1sen!2sin!4v1636299556936!5m2!1sen!2sin" width=100% height=100% style="border:0;" allowfullscreen="false" loading="lazy"></iframe>
                     </div>
                 </div>
-                <div id="map-content" class="pointer-events-auto">
+                <div id="map-content">
                     <div class="row">
                         <div class="col-md-6">
                             <h5>Motel Chhuti Restaurant & Lodging</h5>
@@ -284,15 +283,13 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        <div class="col-md-6" style="padding: 5px;">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
                             <a class="btn btn-fill btn-small"
                                href="https://www.google.com/travel/flights/search"><i
                                     class="fa fa-plane"></i>&nbsp;&nbsp;Book Flight</a>
                         </div>
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                map</a>
-                        </div>
+                        <div class="col-md-3"></div>
                     </div>
                 </div>
             </div>
@@ -325,23 +322,5 @@
 <script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
 </body>
 </html>
