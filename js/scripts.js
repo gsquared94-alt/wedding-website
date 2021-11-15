@@ -135,7 +135,13 @@ $(document).ready(function () {
         });
 
     });
+    /***************** Invite video *********************/
 
+    $('#video-modal').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#invite-video").attr('src',"https://www.youtube.com/embed/ZpxxDV6cjSg"); 
+    }) 
+ 
 
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
